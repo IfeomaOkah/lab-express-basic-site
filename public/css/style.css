@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(250, 250, 250); 
+  
+  
+}
+
+nav, footer {
+  background-color: white; 
+  height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+nav li {
+  display: inline;
+  float: right; 
+  padding: 0px 7px 0px 7px;
+}
+
+footer li {
+  display: inline;
+  padding: 300px 7px 0px 7px;
+}
+
+
+h2 {
+  color: rgb(204, 42, 182);
+  text-shadow: 1px 1px rgb(40, 118, 235); 
+}
+
+header {
+  background-image: url("../fintech2.jpg");
+  background-size: auto;
+  background-repeat: no-repeat no-repeat;
+  height: 500px;
+  width: 1000px;
+
+}
+
+
+a:link {
+  color:black;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(152, 27, 168);
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: rgb(21, 92, 224);
+}
+
+#homeinfo {
+  text-align: center;
+}
